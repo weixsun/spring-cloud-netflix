@@ -96,7 +96,7 @@ class EurekaControllerTests {
 	void testStatus() throws Exception {
 		Map<String, Object> model = new HashMap<>();
 
-		EurekaController controller = new EurekaController(infoManager);
+		EurekaController controller = new EurekaController(infoManager, new EurekaDeploymentProperties());
 
 		controller.status(new MockHttpServletRequest("GET", "/"), model);
 
