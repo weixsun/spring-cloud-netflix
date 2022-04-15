@@ -29,7 +29,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class EurekaDeploymentProperties {
 
 	/**
-	 * Eureka environment. Defaults to "test".
+	 * Eureka environment. Defaults to "test111".
 	 */
 	private String environment = "test";
 
